@@ -12,6 +12,7 @@ import {
 
 export function Transactions() {
   const { transactions } = useContext(TransactionsContext)
+
   return (
     <div>
       <Header />
